@@ -1,0 +1,157 @@
+.services-hero {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1300px;
+  z-index: 2;
+}
+
+.hero-text {
+  color: #fff;
+  width: 45%;
+}
+
+.hero-text h4 {
+  color: #229de0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero-text h4 span {
+  color: #e8eaeb;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-text h1 span {
+  color: #17b7ec;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #1cb8e4;
+  max-width: 400px;
+}
+
+.hero-text p span{
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #e6eaeb;
+  max-width: 400px;
+}
+
+.hero-btn {
+  background: #229fd0;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #27b0ea;
+}
+
+/* RIGHT SLIDER */
+.hero-slider {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 45%;
+  padding-bottom: 10px;
+}
+
+.hero-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  flex: 0 0 260px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.slide-card:hover {
+  transform: translateY(-5px);
+}
+
+.slide-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.slide-card h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #31a8f2;
+}
+
+/* FLAG ICON */
+.flag-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+  width: 70px;
+  height: auto;
+  z-index: 3;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-slider {
+    width: 100%;
+    justify-content: center;
+  }
+}

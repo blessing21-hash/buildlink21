@@ -1,0 +1,166 @@
+.service-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff;
+  color: #000;
+}
+
+/* ===== BADGE ===== */
+.service-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #e5edff;
+  border-radius: 12px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.service-badge .highlight {
+  color: #009dff;
+  margin-left: 4px;
+}
+
+.service-badge .dots {
+  display: flex;
+  gap: 0.2rem;
+  margin-left: 0.8rem;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+/* ===== HEADING ===== */
+.service-heading {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  color: #000;
+}
+
+.service-heading .highlight-text {
+  color: #00a9f4;
+  font-weight: 700;
+}
+
+/* ===== CARDS ===== */
+.service-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Shared styles */
+.service-card {
+  position: relative;
+  width: 240px;
+  padding: 2rem 1.2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto 1rem;
+}
+
+.service-icon.black {
+  color: #000;
+  font-size: 2rem;
+}
+
+.shield-icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  color: #00a9f4;
+}
+
+/* ===== CARD VARIANTS ===== */
+.blue-card {
+  background: #004d80;
+  color: #fff;
+  border-bottom-left-radius: 35px;
+}
+
+.white-card {
+  background: #fff;
+  color: #000;
+  border: 1px solid #e4e4e4;
+  border-bottom-left-radius: 35px;
+}
+
+/* ===== TEXT STYLES ===== */
+.service-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.text-blue {
+  color: #00a9f4;
+}
+
+.service-card p,
+.service-card li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.service-card ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 1.2rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .service-heading {
+    font-size: 1.5rem;
+  }
+
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.shield-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

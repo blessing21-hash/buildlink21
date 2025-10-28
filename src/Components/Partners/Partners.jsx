@@ -12,6 +12,7 @@ function Partners() {
 
   return (
     <section className="partners">
+      <h1>Featured Proviers</h1>
       <h2>Where <span>Our Links</span></h2>
       <div className="partner-logos">
         {partners.map((logo, index) => (

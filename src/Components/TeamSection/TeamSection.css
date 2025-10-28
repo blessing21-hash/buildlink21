@@ -1,0 +1,118 @@
+.team-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+  font-family: "Poppins", sans-serif;
+}
+
+.team-header .team-pill {
+  display: inline-block;
+  background-color: #eaf3ff;
+  color: #007bff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-header h2 span {
+  color: #007bff;
+}
+
+.team-header p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* .team-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+} */
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.team-role {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.role-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.see-more-btn {
+  margin-top: 3rem;
+}
+
+.see-more-btn button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-btn button:hover {
+  background-color: #0056b3;
+}
