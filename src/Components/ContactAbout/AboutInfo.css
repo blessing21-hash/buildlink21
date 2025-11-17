@@ -1,0 +1,143 @@
+
+.about-us-section {
+  background-color: #fff;
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.about-header h4 {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.about-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.about-header span {
+  color: #007bff;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Chat Card */
+.chat-card {
+  background-color: #f9fafc;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+  text-align: center;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.chat-card:hover {
+  transform: translateY(-6px);
+}
+
+.chat-icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.chat-card h4 {
+  color: #222;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.chat-card p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.chat-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.chat-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Form Container */
+.form-container {
+  background: #f9fafc;
+  border-radius: 16px;
+  padding: 40px 30px;
+  flex: 1;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  width: 100%;
+  resize: none;
+  font-family: inherit;
+}
+
+textarea {
+  height: 100px;
+}
+
+.send-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container,
+  .chat-card {
+    max-width: 100%;
+  }
+}

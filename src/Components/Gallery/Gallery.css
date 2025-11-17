@@ -1,0 +1,112 @@
+.gallery-section {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  /* overflow: hidden; */
+}
+
+/* Main gallery image */
+.gallery-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  filter: brightness(65%);
+  border-radius: 4rem;
+  margin-left: 4rem;
+}
+
+/* Text + Button overlay container */
+.gallery-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.gallery-overlay h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  padding-left: 2rem;
+  padding-top: 8rem;
+}
+
+.gallery-overlay h2 span {
+  color: #00b2ff;
+}
+
+.gallery-btn {
+  /* margin-top: 25px; */
+  background: #00b2ff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  margin-left: 60rem;
+  margin-top: 8rem;
+}
+
+.gallery-btn:hover {
+  background: #008bd6;
+}
+
+/* =========================
+   RESPONSIVE DESIGN BELOW
+   ========================= */
+
+/* Tablets (landscape + portrait) */
+@media (max-width: 1024px) {
+  .gallery-section {
+    height: 450px;
+  }
+
+  .gallery-overlay h2 {
+    font-size: 32px;
+  }
+
+  .gallery-btn {
+    font-size: 16px;
+    padding: 10px 26px;
+  }
+}
+
+/* Large phones */
+@media (max-width: 768px) {
+  .gallery-section {
+    height: 380px;
+  }
+
+  .gallery-overlay h2 {
+    font-size: 26px;
+  }
+
+  .gallery-btn {
+    font-size: 14px;
+    padding: 8px 22px;
+  }
+}
+
+/* Small phones (iPhone SE, small Androids) */
+@media (max-width: 480px) {
+  .gallery-section {
+    height: 320px;
+  }
+
+  .gallery-overlay h2 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .gallery-btn {
+    font-size: 13px;
+    padding: 8px 20px;
+    margin-top: 18px;
+  }
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import "./LatestProjects.css";
+import "./ProjectLatest.css";
 
 import project1 from "../../assets/project1.png"; // replace with real images
 import project2 from "../../assets/project2.png";
 import project3 from "../../assets/project3.png";
 
-function LatestProjects() {
+function ProjectLatest() {
   const projects = [
     {
       id: 1,
@@ -28,7 +28,61 @@ function LatestProjects() {
       img: project3,
       provider: "Smart Electricians",
     },
+  
+
+  {
+      id: 1,
+      title: "Kitchen Renovation in Borrowdale",
+      desc: "A modern kitchen renovation project with high-end finishes.",
+      img: project1,
+      provider: "John Builders",
+    },
+
+    {
+      id: 2,
+      title: "Plumbing Upgrade in Avondale",
+      desc: "Replaced old pipes and upgraded the entire plumbing system.",
+      img: project2,
+      provider: "Elite Plumbing",
+    },
+
+    {
+      id: 3,
+      title: "Electrical Wiring in Highlands",
+      desc: "Full electrical installation for a new home build.",
+      img: project3,
+      provider: "Smart Electricians",
+    },
+  
+
+
+  
+  {
+      id: 1,
+      title: "Kitchen Renovation in Borrowdale",
+      desc: "A modern kitchen renovation project with high-end finishes.",
+      img: project1,
+      provider: "John Builders",
+    },
+
+    {
+      id: 2,
+      title: "Plumbing Upgrade in Avondale",
+      desc: "Replaced old pipes and upgraded the entire plumbing system.",
+      img: project2,
+      provider: "Elite Plumbing",
+    },
+
+    {
+      id: 3,
+      title: "Electrical Wiring in Highlands",
+      desc: "Full electrical installation for a new home build.",
+      img: project3,
+      provider: "Smart Electricians",
+    },
   ];
+  
+
 
   return (
     <section className="latest-projects">
@@ -50,10 +104,10 @@ function LatestProjects() {
       </div>
 
       <div className="more-btn">
-        <button>Browse More Projects</button>
+        <button>See More </button>
       </div>
     </section>
   );
 }
 
-export default LatestProjects;
+export default ProjectLatest;

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import Footer from "../../Components/Footer/Footer";
+// import Footer from "../../Components/Footer/Footer";
 import AboutHero from "../../Components/AboutHero/AboutHero";
 import Partners from "../../Components/Partners/Partners";
 import WhoWeAre from "../../Components/WhoWeAre/WhoWeAre";
@@ -23,7 +23,7 @@ function About() {
       <Mission />
       <Service />
       <TeamSection />
-      <Footer />
+      {/* <Footer /> */}
 
     </>
   );

@@ -8,7 +8,7 @@ import WhoWeAre from "../../Components/WhoWeAre/WhoWeAre";
 import FeaturedProviders from "../../Components/FeaturedProviders/FeaturedProviders";
 import Mission from "../../Components/Mission/Mission";
 import Services from "../../Components/Services/Services";
-import Footer from "../../Components/Footer/Footer";
+
 import JobPost from "../../Components/JobPost/JobPost";
 
 import TeamSection from "../../Components/TeamSection/TeamSection";
@@ -26,14 +26,15 @@ function Home() {
       <Button />
       <Partners/>
       <WhoWeAre/>
-      <FeaturedProviders/>
+      
       <Mission />
       <Services />
+      <FeaturedProviders/>
        <JobPost />
        
-       <TeamSection />
+       {/* <TeamSection /> */}
        {/* <ServicesHero /> */}
-      <Footer />
+      {/* <Footer /> */}
       {/* {<LatestProjects/> } */}
       {/* Next sections will be added here stage by stage */}
     </>

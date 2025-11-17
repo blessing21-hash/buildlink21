@@ -1,0 +1,30 @@
+.map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.marker-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marker {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #dc2626;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.marker-icon {
+  color: white;
+  font-size: 1rem;
+}
